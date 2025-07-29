@@ -1,0 +1,752 @@
+version: "3.1"
+language: en
+
+nlu:
+  - intent: interest_ai_engineer
+    examples: |
+      - I want to be an AI engineer
+      - how to become an AI engineer?
+      - I love working on intelligent systems
+      - I enjoy machine learning and AI
+      - I'm interested in artificial intelligence
+      - AI and coding fascinate me
+      - I like building smart apps
+      - I want to create AI models
+      - I love logical thinking and automation
+      - I want to design AI systems
+      - AI engineering is my dream
+      - I enjoy solving problems with code
+      - I'm curious about deep learning
+      - I'm into futuristic tech like AI    
+
+  - intent: interest_data_scientist
+    examples: |
+      - I love statistics
+      - I enjoy solving data problems
+      - I'm interested in data analysis
+      - Analyzing numbers fascinates me
+      - I'm passionate about drawing insights from data
+      - I love working with large datasets
+      - I enjoy logic-based work
+      - I'm interested in predictive modeling
+      - I want to become a data scientist
+      - how to become a data scientist
+      - data scientist career path
+      - can I become a data scientist if I like math?
+      - is data science good for someone who loves analysis?
+      - suggest something if I enjoy working with numbers
+      - is data science a good career for logical thinkers?
+      - I’m into Python and stats
+      - I like exploring data trends
+      - I’m interested in AI and data
+      - what if I like visualizing data?
+      - recommend a career for someone who loves logic and math
+
+  - intent: interest_machine_learning_engineer
+    examples: |
+      - I love solving AI problems
+      - I enjoy working with data and models
+      - I'm interested in ML systems
+      - I want to be a machine learning engineer
+      - machine learning engineering is my goal
+      - I love machine learning
+      - how to become a machine learning engineer
+      - ML engineering fascinates me
+      - I'm curious about model training
+      - I'm passionate about algorithms
+      - I'm good at ML
+      - I enjoy predictive modeling
+      - I like optimizing models
+      - I enjoy tuning hyperparameters
+      - I like working with data pipelines
+      - I want to build intelligent systems
+      - I'm into deep learning
+      - I’m interested in supervised learning
+      - unsupervised learning excites me
+      - neural networks are fascinating
+
+  - intent: interest_full_stack_developer
+    examples: |
+      - I want to be a full stack developer
+      - I love both frontend and backend
+      - I'm interested in web development
+      - I enjoy building web apps
+      - full stack development excites me
+      - I like creating end-to-end applications
+      - how to become a full stack developer
+      - I love frontend and backend coding
+      - I like working with databases and APIs
+      - I enjoy designing and developing web pages
+      - full stack is my passion
+      - I like MERN stack
+      - I love React and Node.js
+      - I'm good at JavaScript and Python
+      - I want to build complete web solutions
+      - full stack developer career path
+      - web development interests me
+      - I'm into full stack technologies
+      - building apps from scratch excites me
+      - I enjoy working with HTML, CSS, and JS
+
+  - intent: interest_cybersecurity_analyst
+    examples: |
+      - I want to become a cybersecurity analyst
+      - how to get into cybersecurity
+      - I love protecting systems
+      - I'm interested in network security
+      - I enjoy ethical hacking
+      - cybersecurity excites me
+      - I'm good at spotting security flaws
+      - I like monitoring systems for threats
+      - I want to fight cybercrime
+      - I'm into digital security
+      - I want to work in cybersecurity
+      - hacking and security interest me
+      - I like analyzing vulnerabilities
+      - data protection interests me
+      - I want to be a cyber security expert
+      - I enjoy solving security breaches
+      - cyber forensics fascinates me
+      - I like working on secure systems
+      - I want to learn ethical hacking
+      - cybersecurity analyst career path
+
+  - intent: interest_devops_engineer
+    examples: |
+      - I want to become a DevOps engineer
+      - I love automation and deployment
+      - CI/CD pipelines interest me
+      - I'm interested in DevOps
+      - I enjoy managing infrastructure
+      - I like configuring servers
+      - I want to work with Docker and Kubernetes
+      - building and deploying apps is exciting
+      - I want a career in DevOps
+      - I'm good at Linux and scripting
+      - I'm into system administration
+      - automation fascinates me
+      - I enjoy working with cloud and containers
+      - how to become a DevOps engineer
+      - DevOps engineer career path
+      - I'm interested in infrastructure as code
+      - I love solving deployment issues
+      - I like integrating tools and monitoring
+      - I want to work on scalable systems
+      - managing cloud infrastructure excites me
+
+  - intent: interest_cloud_solutions_architect
+    examples: |
+      - I want to become a cloud solutions architect
+      - I am passionate about cloud computing
+      - I'm interested in AWS and Azure
+      - I enjoy designing scalable systems
+      - how to become a cloud architect
+      - I want to work on cloud infrastructure
+      - cloud architecture fascinates me
+      - I like working with GCP and Kubernetes
+      - I’m into DevOps and cloud
+      - I enjoy setting up cloud systems
+      - I want a career in cloud
+      - I want to design enterprise cloud systems
+      - I'm good at distributed computing
+      - I love virtual machines and networks
+      - what is the path to becoming a cloud architect?
+      - I want to build cloud-native apps
+      - I like architecting cloud platforms
+      - I am curious about multi-cloud solutions
+      - cloud architecture sounds exciting
+      - I enjoy system design at scale
+
+  - intent: interest_blockchain_developer
+    examples: |
+      - I want to become a blockchain developer
+      - I’m fascinated by blockchain technology
+      - I love working on smart contracts
+      - how to start a career in blockchain
+      - I enjoy decentralized apps
+      - I’m interested in crypto and web3
+      - I want to build on Ethereum
+      - I like blockchain coding
+      - I’m into NFT and DeFi development
+      - I want to write Solidity code
+      - blockchain excites me
+      - I'm passionate about distributed systems
+      - I like creating secure digital solutions
+      - career in smart contract development
+      - I want to contribute to web3
+      - how do I get into blockchain development?
+      - I'm curious about cryptography and consensus
+      - I like the idea of decentralization
+      - I want to work in crypto industry
+      - I enjoy building on blockchain platforms
+
+  - intent: interest_game_developer
+    examples: |
+      - I want to become a game developer
+      - I love creating games
+      - I enjoy working with game engines
+      - I want to design interactive games
+      - I’m into Unity and Unreal Engine
+      - I like programming game mechanics
+      - I want to build video games
+      - game development is my passion
+      - how do I become a game developer?
+      - I enjoy 3D modeling and animations
+      - I want to work in the gaming industry
+      - I love combining creativity and code
+      - I want to be a level designer
+      - I’m passionate about gameplay design
+      - I enjoy storytelling in games
+      - I want to build VR games
+      - how to start a career in game development?
+      - I love making fun experiences through code
+      - I like working on graphics and rendering
+      - I want to work on multiplayer game design
+
+  - intent: interest_nlp_engineer
+    examples: |
+      - I want to become an NLP engineer
+      - I love working with language models
+      - I’m fascinated by chatbots and AI conversation
+      - How to become an NLP engineer?
+      - I want to work on language understanding systems
+      - I like text classification and sentiment analysis
+      - I'm interested in natural language processing
+      - I enjoy building voice assistants
+      - I want to train models like GPT or BERT
+      - NLP is my area of interest
+      - I love extracting insights from text
+      - How do I start a career in NLP?
+      - I want to work with language data
+      - I like speech recognition systems
+      - I want to build smart assistants
+      - I’m interested in tokenization and embeddings
+      - I enjoy solving problems in linguistics using AI
+      - I want to design AI that understands language
+      - Language and AI excite me
+      - I want to process and analyze human language
+   
+  - intent: interest_biotechnologist
+    examples: |
+      - I want to be a biotechnologist
+      - I love working with biology and technology
+      - I'm interested in genetic modification
+      - I enjoy studying cells and DNA
+      - biotechnology fascinates me
+      - I want to research bio-engineering
+      - how do I become a biotechnologist?
+      - I’m curious about cloning and lab research
+      - I like combining science with innovation
+      - I want to work in biotech labs
+
+  - intent: interest_clinical_research_associate
+    examples: |
+      - I want to be a clinical research associate
+      - I enjoy drug trials and testing
+      - I want to monitor clinical trials
+      - How can I work in clinical research?
+      - I'm interested in research in medicine
+      - I like reviewing clinical protocols
+      - I want to be part of clinical studies
+      - I enjoy medical documentation and analysis
+      - CRA roles interest me
+      - I want to assist in clinical data collection
+
+  - intent: interest_quantum_computing_researcher
+    examples: |
+      - I want to research quantum computing
+      - I’m curious about quantum mechanics in computing
+      - I love quantum physics and logic
+      - how to become a quantum computing researcher?
+      - I enjoy quantum bits and entanglement
+      - quantum programming interests me
+      - I want to work with Qiskit and IBM Q
+      - I want to solve problems using quantum algorithms
+      - I enjoy advanced theoretical physics and computing
+      - I want to explore superposition and decoherence
+
+  - intent: interest_geneticist
+    examples: |
+      - I want to become a geneticist
+      - I'm fascinated by DNA and genes
+      - I enjoy studying heredity
+      - how to pursue genetics as a career?
+      - I like working on genetic disorders
+      - I love analyzing DNA sequences
+      - I want to research genome editing
+      - Genetics and biology interest me
+      - I want to study CRISPR and gene therapy
+      - Genetic science fascinates me
+
+  - intent: interest_epidemiologist
+    examples: |
+      - I want to become an epidemiologist
+      - I'm interested in studying disease patterns
+      - I enjoy analyzing public health data
+      - how to work in epidemiology?
+      - I want to track disease outbreaks
+      - I love statistics and health trends
+      - I want to study virus transmission
+      - health research excites me
+      - I’m curious about infection modeling
+      - I like researching health data patterns
+
+  - intent: interest_environmental_scientist
+    examples: |
+      - I want to be an environmental scientist
+      - I care about the environment and sustainability
+      - I want to fight climate change
+      - I enjoy studying ecosystems and pollution
+      - how to become an environmental scientist?
+      - I like environmental research
+      - I love nature and science
+      - I’m interested in air and water quality
+      - I want to study environmental impact
+      - protecting the earth is important to me
+
+  - intent: interest_neuroscientist
+    examples: |
+      - I want to become a neuroscientist
+      - I’m fascinated by the brain
+      - how can I study neuroscience?
+      - I enjoy brain and nervous system research
+      - I want to explore neural networks and behavior
+      - I’m curious about memory and cognition
+      - I want to work on brain diseases
+      - neuroscience is my passion
+      - I enjoy studying neurons and mental health
+      - I love brain science
+
+  - intent: interest_astrophysicist
+    examples: |
+      - I want to be an astrophysicist
+      - I love space and physics
+      - I enjoy studying stars and galaxies
+      - how to start a career in astrophysics?
+      - I’m fascinated by black holes and the universe
+      - I want to research the origin of the cosmos
+      - astronomy and physics excite me
+      - I’m curious about dark matter and energy
+      - I want to work for NASA or ISRO
+      - space science is my dream
+
+  - intent: interest_materials_scientist
+    examples: |
+      - I want to be a materials scientist
+      - I love chemistry and material properties
+      - how to pursue material science?
+      - I enjoy testing metals and polymers
+      - I’m interested in nanomaterials
+      - I want to create better building materials
+      - I like studying the strength of materials
+      - I want to research sustainable materials
+      - Materials science fascinates me
+      - I want to innovate new materials
+
+  - intent: interest_oceanographer
+    examples: |
+      - I want to be an oceanographer
+      - I love the sea and marine life
+      - I want to study ocean currents and climate
+      - how to become a marine scientist?
+      - I enjoy researching underwater ecosystems
+      - oceans fascinate me
+      - I want to explore deep sea science
+      - I’m interested in ocean data and satellites
+      - I like marine biology and geology
+      - I want to help protect marine environments
+
+  - intent: interest_robotics_engineer
+    examples: |
+      - I want to be a robotics engineer
+      - I love building robots
+      - robotics is my passion
+      - how to become a robotics engineer?
+      - I enjoy working with sensors and motors
+      - I’m fascinated by automation
+      - I want to build intelligent machines
+      - I like combining hardware and software
+      - I want to design robotic systems
+      - robots interest me
+
+  - intent: interest_biomedical_engineer
+    examples: |
+      - I want to be a biomedical engineer
+      - I love merging medicine and technology
+      - biomedical devices interest me
+      - I want to design prosthetics
+      - I enjoy working on healthcare equipment
+      - I like solving medical problems with engineering
+      - how to become a biomedical engineer?
+      - I'm interested in healthcare tech
+      - I want to improve patient care through innovation
+      - I enjoy biology and electronics
+
+  - intent: interest_renewable_energy_engineer
+    examples: |
+      - I want to be a renewable energy engineer
+      - I care about clean energy
+      - I want to build solar and wind systems
+      - how to become a renewable energy engineer?
+      - I enjoy working on green technology
+      - sustainability is my passion
+      - I like creating eco-friendly solutions
+      - I want to reduce carbon footprint
+      - energy efficiency interests me
+      - I enjoy designing energy systems
+
+  - intent: interest_mechanical_engineer
+    examples: |
+      - I want to be a mechanical engineer
+      - I like machines and engines
+      - I enjoy designing mechanical systems
+      - how to pursue mechanical engineering?
+      - I want to work on product design
+      - mechanical components interest me
+      - I love working with CAD tools
+      - I’m into thermodynamics
+      - I want to build physical systems
+      - I enjoy manufacturing and mechanics
+
+  - intent: interest_civil_engineer
+    examples: |
+      - I want to be a civil engineer
+      - I like construction and design
+      - I enjoy working on buildings and roads
+      - civil structures fascinate me
+      - how to become a civil engineer?
+      - I want to design bridges
+      - I enjoy infrastructure projects
+      - construction management interests me
+      - I like city planning
+      - I want to work on smart cities
+
+  - intent: interest_electrical_design_engineer
+    examples: |
+      - I want to be an electrical design engineer
+      - I love working with circuits
+      - I enjoy designing PCBs
+      - how to become an electrical design engineer?
+      - I want to design electronics
+      - I like working with voltage and current
+      - microcontrollers fascinate me
+      - I enjoy creating electrical schematics
+      - designing hardware interests me
+      - electronics is my passion
+
+  - intent: interest_aerospace_engineer
+    examples: |
+      - I want to be an aerospace engineer
+      - I love rockets and aircraft
+      - I enjoy flight dynamics
+      - how to become an aerospace engineer?
+      - aerodynamics fascinates me
+      - I want to work for ISRO or NASA
+      - I enjoy space technology
+      - I like designing aircraft and spacecraft
+      - space engineering excites me
+      - I’m into propulsion systems
+
+  - intent: interest_semiconductor_process_engineer
+    examples: |
+      - I want to be a semiconductor engineer
+      - I love chip manufacturing
+      - I enjoy working on processors
+      - how to become a semiconductor process engineer?
+      - I want to work with silicon wafers
+      - I’m fascinated by chip design
+      - lithography interests me
+      - I like semiconductor fabrication
+      - VLSI is my interest area
+      - I’m into nanotechnology
+
+  - intent: interest_mechatronics_engineer
+    examples: |
+      - I want to be a mechatronics engineer
+      - I love combining hardware and software
+      - I enjoy working with motors and sensors
+      - how to become a mechatronics engineer?
+      - I’m fascinated by automation
+      - I like building smart mechanical systems
+      - I enjoy Arduino and Raspberry Pi
+      - robotics and mechatronics interest me
+      - I want to design intelligent machines
+      - integrating mechanics and electronics excites me
+
+  - intent: interest_systems_engineer
+    examples: |
+      - I want to be a systems engineer
+      - I enjoy managing large-scale systems
+      - I love integrating tech systems
+      - how to become a systems engineer?
+      - I like coordinating between hardware and software
+      - I’m good at system-level thinking
+      - I want to solve infrastructure issues
+      - I like designing complex architectures
+      - managing IT systems excites me
+      - I enjoy scalable solutions
+    
+  - intent: interest_telemedicine_specialist
+    examples: |
+      - I want to become a telemedicine specialist
+      - I'm interested in online healthcare
+      - I enjoy tech in medical services
+      - how to become a telemedicine expert?
+      - I like virtual doctor consultations
+      - I want to work in telehealth
+      - remote healthcare interests me
+      - I want to combine healthcare and technology
+      - I’m fascinated by digital health platforms
+      - I love healthcare and tech integration
+
+  - intent: interest_medical_imaging_technologist
+    examples: |
+      - I want to be a medical imaging technologist
+      - I like working with MRI and X-rays
+      - I enjoy diagnostic imaging
+      - how to become a radiology technician?
+      - I’m interested in CT scan technology
+      - medical scanning fascinates me
+      - I love imaging devices
+      - I want to assist doctors with imaging
+      - radiology is my interest
+      - diagnostic equipment interests me
+
+  - intent: interest_health_informatics_analyst
+    examples: |
+      - I want to become a health informatics analyst
+      - I enjoy working with medical data
+      - I like analyzing healthcare records
+      - how to work in health data analytics?
+      - I want to manage electronic health records
+      - I’m interested in digital health data
+      - I love combining healthcare and IT
+      - I want to improve hospital data systems
+      - patient data analysis interests me
+      - I enjoy EHR and healthcare software
+
+  - intent: interest_genetic_counselor
+    examples: |
+      - I want to be a genetic counselor
+      - I love genetics and helping people
+      - I enjoy analyzing DNA data
+      - how to become a genetic counselor?
+      - I want to guide people about inherited diseases
+      - genetics fascinates me
+      - I’m interested in personalized medicine
+      - I want to help with hereditary risk evaluation
+      - genomics is my passion
+      - I enjoy explaining health genetics to patients
+
+  - intent: interest_public_health_officer
+    examples: |
+      - I want to become a public health officer
+      - I’m interested in population health
+      - I enjoy working in community wellness
+      - how to get into public health services?
+      - I love organizing health campaigns
+      - I want to help with government health initiatives
+      - community medicine interests me
+      - I like improving rural healthcare
+      - epidemiology and outreach excite me
+      - I’m passionate about health awareness
+
+  - intent: interest_medical_data_analyst
+    examples: |
+      - I want to become a medical data analyst
+      - I like analyzing patient data
+      - I'm interested in healthcare analytics
+      - I enjoy using data in hospitals
+      - how to work in medical data?
+      - I love health statistics
+      - I’m passionate about data science in medicine
+      - I want to combine healthcare and analytics
+      - I enjoy electronic medical records analysis
+      - I want to improve medical decision-making with data
+
+  - intent: interest_pharmacovigilance_scientist
+    examples: |
+      - I want to become a pharmacovigilance scientist
+      - I'm interested in drug safety
+      - I enjoy reviewing medicine side effects
+      - how to get into pharmacovigilance?
+      - I love working with clinical trial data
+      - I want to monitor adverse drug reactions
+      - drug monitoring interests me
+      - I'm passionate about pharmaceutical regulations
+      - I enjoy post-marketing drug safety
+      - I want to work in pharma analytics
+
+  - intent: interest_rehabilitation_technologist
+    examples: |
+      - I want to be a rehabilitation technologist
+      - I'm interested in rehab technologies
+      - I enjoy helping patients recover
+      - how to work in rehabilitation tech?
+      - I love assistive devices
+      - I want to build devices for disabled individuals
+      - I enjoy physiotherapy equipment work
+      - working with physical therapists interests me
+      - I'm passionate about disability support
+      - I like biomedical rehabilitation tools
+
+  - intent: interest_surgical_robotics_operator
+    examples: |
+      - I want to be a surgical robotics operator
+      - I'm interested in robotic surgery
+      - I enjoy working with surgical equipment
+      - how to become a surgical robotics technician?
+      - I love tech in the operating room
+      - I want to assist in robotic surgeries
+      - robotics and healthcare excite me
+      - I’m passionate about medical automation
+      - I want to blend robotics and medicine
+      - surgical robots fascinate me
+
+  - intent: interest_nutrition_and_wellness_coach
+    examples: |
+      - I want to become a nutrition coach
+      - I'm passionate about healthy living
+      - I love food science and health
+      - how to start a career in wellness coaching?
+      - I enjoy advising people on nutrition
+      - I like meal planning and fitness
+      - I want to promote wellness and diet
+      - helping others eat better interests me
+      - I'm into nutrition and lifestyle
+      - I want to guide people on balanced diets
+
+  - intent: interest_ai_product_manager
+    examples: |
+      - I want to be an AI product manager
+      - I like leading AI teams
+      - I'm interested in AI and business
+      - how to become an AI product manager?
+      - I love building AI products
+      - I'm into product strategy and AI
+      - I enjoy managing tech teams
+      - I want to launch AI solutions
+      - product management in AI interests me
+      - I like combining tech and business
+
+  - intent: interest_fintech_solutions_architect
+    examples: |
+      - I want to work in fintech architecture
+      - I'm interested in digital banking tech
+      - how to become a fintech architect?
+      - I enjoy building finance apps
+      - I want to lead fintech tech teams
+      - fintech and APIs excite me
+      - I like solving finance problems with code
+      - I love digital wallets and fintech platforms
+      - I want to work on secure payment solutions
+      - I'm into financial technology
+
+  - intent: interest_ux_ui_designer_digital_health
+    examples: |
+      - I want to design health tech interfaces
+      - I'm into UX/UI for healthcare
+      - I enjoy making user-friendly medical apps
+      - I like digital product design
+      - I'm passionate about health-focused design
+      - I want to improve patient experience with design
+      - I love working with Figma and wireframes
+      - I want to create designs for hospital systems
+      - user-centered health design interests me
+      - I want to be a UX/UI designer in digital health
+
+  - intent: interest_ar_vr_developer
+    examples: |
+      - I want to build AR and VR apps
+      - I'm interested in virtual reality
+      - I love creating immersive experiences
+      - I enjoy 3D simulations
+      - how to work in AR/VR development?
+      - I’m passionate about the metaverse
+      - I want to be a VR developer
+      - Unity and Unreal Engine fascinate me
+      - I like mixed reality projects
+      - AR/VR is my dream field
+
+  - intent: interest_iot_solutions_engineer
+    examples: |
+      - I want to work with smart devices
+      - I like IoT and hardware systems
+      - I want to become an IoT engineer
+      - how to build IoT products?
+      - I'm interested in connected devices
+      - I love working with sensors
+      - I want to create smart home tech
+      - IoT and automation excite me
+      - I want to build wearable tech
+      - I enjoy low-level device programming
+
+  - intent: interest_digital_twin_engineer
+    examples: |
+      - I want to be a digital twin engineer
+      - I'm interested in modeling real systems
+      - I enjoy simulation and virtualization
+      - how to create digital twins?
+      - I like digital replicas of physical systems
+      - digital twin engineering fascinates me
+      - I want to simulate factories
+      - I’m into predictive maintenance systems
+      - I want to blend sensors and analytics
+      - I enjoy real-time process simulation
+
+  - intent: interest_drone_technology_specialist
+    examples: |
+      - I want to work with drones
+      - I'm interested in drone tech
+      - how to become a drone specialist?
+      - I enjoy flying drones
+      - I love UAVs and aerial robotics
+      - I want to build surveillance drones
+      - I'm passionate about aerial imaging
+      - drone mapping excites me
+      - I want to do drone-based agriculture
+      - I enjoy building and flying robots
+
+  - intent: interest_space_mission_analyst
+    examples: |
+      - I want to work in space research
+      - I'm passionate about space missions
+      - how to become a mission analyst?
+      - I love astronomy and rockets
+      - I enjoy analyzing satellite data
+      - I want to be in ISRO or NASA
+      - I'm interested in orbital mechanics
+      - space simulations excite me
+      - I enjoy mission planning and telemetry
+      - I want to help launch satellites
+
+  - intent: interest_esg_consultant
+    examples: |
+      - I want to be an ESG consultant
+      - I'm passionate about sustainability
+      - I enjoy working on climate policies
+      - how to work in ESG?
+      - I love helping companies go green
+      - ESG strategy interests me
+      - I want to solve environmental issues
+      - I like social impact projects
+      - I want to advise on ethical business
+      - I'm interested in governance frameworks
+
+  - intent: interest_prompt_engineer
+    examples: |
+      - I want to be a prompt engineer
+      - I'm interested in LLMs
+      - I enjoy crafting AI prompts
+      - how to work with ChatGPT?
+      - I love interacting with AI
+      - prompt writing fascinates me
+      - I like building AI workflows
+      - I want to engineer responses from LLMs
+      - prompt tuning is exciting
+      - I’m into AI content generation
+
+
+ 
+
+    

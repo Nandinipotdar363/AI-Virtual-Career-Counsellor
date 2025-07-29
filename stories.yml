@@ -1,0 +1,255 @@
+version: "3.1"
+
+stories:
+
+# 🔁 Base flow for user stating specific career interest
+
+- story: Recommend career - Ai Engineer
+  steps:
+    - intent: interest_ai_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Data Scientist
+  steps:
+    - intent: interest_data_scientist
+    - action: action_recommend_career
+
+- story: Recommend career - Machine Learning Engineer
+  steps:
+    - intent: interest_machine_learning_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Full Stack Developer
+  steps:
+    - intent: interest_full_stack_developer
+    - action: action_recommend_career
+
+- story: Recommend career - Cybersecurity Analyst
+  steps:
+    - intent: interest_cybersecurity_analyst
+    - action: action_recommend_career
+
+- story: Recommend career - Devops Engineer
+  steps:
+    - intent: interest_devops_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Cloud Solutions Architect
+  steps:
+    - intent: interest_cloud_solutions_architect
+    - action: action_recommend_career
+
+- story: Recommend career - Blockchain Developer
+  steps:
+    - intent: interest_blockchain_developer
+    - action: action_recommend_career
+
+- story: Recommend career - Game Developer
+  steps:
+    - intent: interest_game_developer
+    - action: action_recommend_career
+
+- story: Recommend career - Nlp Engineer
+  steps:
+    - intent: interest_nlp_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Biotechnologist
+  steps:
+    - intent: interest_biotechnologist
+    - action: action_recommend_career
+
+- story: Recommend career - Clinical Research Associate
+  steps:
+    - intent: interest_clinical_research_associate
+    - action: action_recommend_career
+
+- story: Recommend career - Quantum Computing Researcher
+  steps:
+    - intent: interest_quantum_computing_researcher
+    - action: action_recommend_career
+
+- story: Recommend career - Geneticist
+  steps:
+    - intent: interest_geneticist
+    - action: action_recommend_career
+
+- story: Recommend career - Epidemiologist
+  steps:
+    - intent: interest_epidemiologist
+    - action: action_recommend_career
+
+- story: Recommend career - Environmental Scientist
+  steps:
+    - intent: interest_environmental_scientist
+    - action: action_recommend_career
+
+- story: Recommend career - Neuroscientist
+  steps:
+    - intent: interest_neuroscientist
+    - action: action_recommend_career
+
+- story: Recommend career - Astrophysicist
+  steps:
+    - intent: interest_astrophysicist
+    - action: action_recommend_career
+
+- story: Recommend career - Materials Scientist
+  steps:
+    - intent: interest_materials_scientist
+    - action: action_recommend_career
+
+- story: Recommend career - Oceanographer
+  steps:
+    - intent: interest_oceanographer
+    - action: action_recommend_career
+
+- story: Recommend career - Robotics Engineer
+  steps:
+    - intent: interest_robotics_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Biomedical Engineer
+  steps:
+    - intent: interest_biomedical_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Renewable Energy Engineer
+  steps:
+    - intent: interest_renewable_energy_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Mechanical Engineer
+  steps:
+    - intent: interest_mechanical_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Civil Engineer
+  steps:
+    - intent: interest_civil_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Electrical Design Engineer
+  steps:
+    - intent: interest_electrical_design_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Aerospace Engineer
+  steps:
+    - intent: interest_aerospace_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Semiconductor Process Engineer
+  steps:
+    - intent: interest_semiconductor_process_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Mechatronics Engineer
+  steps:
+    - intent: interest_mechatronics_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Systems Engineer
+  steps:
+    - intent: interest_systems_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Telemedicine Specialist
+  steps:
+    - intent: interest_telemedicine_specialist
+    - action: action_recommend_career
+
+- story: Recommend career - Medical Imaging Technologist
+  steps:
+    - intent: interest_medical_imaging_technologist
+    - action: action_recommend_career
+
+- story: Recommend career - Health Informatics Analyst
+  steps:
+    - intent: interest_health_informatics_analyst
+    - action: action_recommend_career
+
+- story: Recommend career - Genetic Counselor
+  steps:
+    - intent: interest_genetic_counselor
+    - action: action_recommend_career
+
+- story: Recommend career - Public Health Officer
+  steps:
+    - intent: interest_public_health_officer
+    - action: action_recommend_career
+
+- story: Recommend career - Medical Data Analyst
+  steps:
+    - intent: interest_medical_data_analyst
+    - action: action_recommend_career
+
+- story: Recommend career - Pharmacovigilance Scientist
+  steps:
+    - intent: interest_pharmacovigilance_scientist
+    - action: action_recommend_career
+
+- story: Recommend career - Rehabilitation Technologist
+  steps:
+    - intent: interest_rehabilitation_technologist
+    - action: action_recommend_career
+
+- story: Recommend career - Surgical Robotics Operator
+  steps:
+    - intent: interest_surgical_robotics_operator
+    - action: action_recommend_career
+
+- story: Recommend career - Nutrition Wellness Coach
+  steps:
+    - intent: interest_nutrition_wellness_coach
+    - action: action_recommend_career
+
+- story: Recommend career - Ai Product Manager
+  steps:
+    - intent: interest_ai_product_manager
+    - action: action_recommend_career
+
+- story: Recommend career - Fintech Solutions Architect
+  steps:
+    - intent: interest_fintech_solutions_architect
+    - action: action_recommend_career
+
+- story: Recommend career - Ux Ui Designer
+  steps:
+    - intent: interest_ux_ui_designer
+    - action: action_recommend_career
+
+- story: Recommend career - Ar Vr Developer
+  steps:
+    - intent: interest_ar_vr_developer
+    - action: action_recommend_career
+
+- story: Recommend career - Iot Solutions Engineer
+  steps:
+    - intent: interest_iot_solutions_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Digital Twin Engineer
+  steps:
+    - intent: interest_digital_twin_engineer
+    - action: action_recommend_career
+
+- story: Recommend career - Drone Technology Specialist
+  steps:
+    - intent: interest_drone_technology_specialist
+    - action: action_recommend_career
+
+- story: Recommend career - Space Mission Analyst
+  steps:
+    - intent: interest_space_mission_analyst
+    - action: action_recommend_career
+
+- story: Recommend career - Esg Consultant
+  steps:
+    - intent: interest_esg_consultant
+    - action: action_recommend_career
+
+- story: Recommend career - Prompt Engineer
+  steps:
+    - intent: interest_prompt_engineer
+    - action: action_recommend_career

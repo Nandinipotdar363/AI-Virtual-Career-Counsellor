@@ -1,0 +1,84 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - express_interest
+  - career_query
+
+  # 💡 50 Career-Specific Intents
+  - interest_ai_engineer
+  - interest_data_scientist
+  - interest_machine_learning_engineer
+  - interest_full_stack_developer
+  - interest_cybersecurity_analyst
+  - interest_devops_engineer
+  - interest_cloud_solutions_architect
+  - interest_blockchain_developer
+  - interest_game_developer
+  - interest_nlp_engineer
+  - interest_biotechnologist
+  - interest_clinical_research_associate
+  - interest_quantum_computing_researcher
+  - interest_geneticist
+  - interest_epidemiologist
+  - interest_environmental_scientist
+  - interest_neuroscientist
+  - interest_astrophysicist
+  - interest_materials_scientist
+  - interest_oceanographer
+  - interest_robotics_engineer
+  - interest_biomedical_engineer
+  - interest_renewable_energy_engineer
+  - interest_mechanical_engineer
+  - interest_civil_engineer
+  - interest_electrical_design_engineer
+  - interest_aerospace_engineer
+  - interest_semiconductor_process_engineer
+  - interest_mechatronics_engineer
+  - interest_systems_engineer
+  - interest_telemedicine_specialist
+  - interest_medical_imaging_technologist
+  - interest_health_informatics_analyst
+  - interest_genetic_counselor
+  - interest_public_health_officer
+  - interest_medical_data_analyst
+  - interest_pharmacovigilance_scientist
+  - interest_rehabilitation_technologist
+  - interest_surgical_robotics_operator
+  - interest_nutrition_and_wellness_coach
+  - interest_ai_product_manager
+  - interest_fintech_solutions_architect
+  - interest_ux_ui_designer_digital_health
+  - interest_ar_vr_developer
+  - interest_iot_solutions_engineer
+  - interest_digital_twin_engineer
+  - interest_drone_technology_specialist
+  - interest_space_mission_analyst
+  - interest_esg_consultant
+  - interest_prompt_engineer
+
+slots:
+  field:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: custom
+
+responses:
+  utter_greet:
+    - text: "Hi there! I'm your career guide bot. What fields are you most interested in?"
+
+  utter_goodbye:
+    - text: "Goodbye! Best of luck with your career journey."
+
+  utter_ask_interest:
+    - text: "Which area are you most interested in? (e.g. technology, healthcare, engineering, etc.)"
+
+actions:
+  - action_recommend_career
+  - action_suggest_careers
